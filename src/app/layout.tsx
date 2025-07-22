@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Anton } from "next/font/google";
+import Navbar from "@/components/Navbar";
 import "../styles/globals.css";
 
 const fontAnton = Anton({
@@ -15,7 +16,7 @@ const fontFraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: "Studio The Lit",
-  description: "Estúdio de tatuagem para todos os gostos",
+  description: "Estúdio de tatuagem para todos os estilos",
 };
 
 export default function RootLayout({
@@ -26,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${fontAnton.variable} ${fontFraunces.variable}`}>
+        <Navbar />
         {children}
       </body>
     </html>

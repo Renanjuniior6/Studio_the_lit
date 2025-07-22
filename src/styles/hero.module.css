@@ -1,0 +1,32 @@
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.welcome h4 {
+    font-family: var(--font-anton), Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 210px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-family: var(--font-fraunces), Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 1em;
+    font-style: normal;
+    max-width: 47%;
+    text-align: center;
+}
