@@ -25,7 +25,7 @@ export default function About() {
 
         // Proporção da distância do topo da imagem até o topo da janela
         const percent = Math.min(Math.max(rect.top / windowHeight, 0), 1);
-        const rotationY = 80 * percent; // de 90° até 0°
+        const rotationY = 40 * percent; // de 90° até 0°
 
         img.style.transform = `rotateY(${rotationY}deg)`;
       });
@@ -54,7 +54,7 @@ export default function About() {
                     width={300}
                     height={500}
                     style={{
-                        transition: 'transform 0.5s ease-out',
+                        transition: 'transform 0.3s ease-out',
                         transformStyle: 'preserve-3d',
                     }}
             />
