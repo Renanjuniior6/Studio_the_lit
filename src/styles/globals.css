@@ -11,7 +11,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-anton), Arial, Helvetica, sans-serif;
+  font-family: var(--font-fraunces), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
