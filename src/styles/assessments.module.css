@@ -1,0 +1,17 @@
+.assessments_section {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 2000;
+}
+
+.box_image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.box_image img {
+    background-attachment: fixed;
+    object-fit: cover;
+}

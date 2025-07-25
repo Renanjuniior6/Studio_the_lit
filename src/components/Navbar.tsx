@@ -14,7 +14,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <div className={styles.menu}></div>
+                <div className={styles.menu} style={{marginBottom: 4}}></div>
                 <div className={styles.menu}></div>
             </div>
         </nav>
