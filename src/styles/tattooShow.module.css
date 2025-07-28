@@ -1,0 +1,28 @@
+.section_tattoo_show {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    padding-top: 180px;
+    background-color: var(--background);
+    perspective: 1600px;
+}
+
+.image_1 {
+    object-fit: cover;
+}
+
+.image_2 {
+    object-fit: cover;
+    margin-left: 64%;
+}
+
+.image_3 {
+    object-fit: cover;
+    margin-right: 64%;
+}
