@@ -61,8 +61,6 @@ export default function TattooShow() {
             />
           ))}
 
-          {/* <About /> */}
-
       </section>
     )
 }

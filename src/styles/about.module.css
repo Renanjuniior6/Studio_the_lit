@@ -1,13 +1,8 @@
-.section_about {
+.about {
     width: 100vw;
     height: auto;
     position: fixed;
-    bottom: 400;
     z-index: -1;
-}
-
-.about {
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,11 +27,13 @@
     font-weight: 200;
 }
 
+/* ////////////////////// ///////////////////// */
+
 .box_image {
     position: absolute;
+    top: 3900;
     width: 100%;
-    height: 80vh;
-    margin-top: 20rem;
+    height: 50vh;
 }
 
 .box_image img {
