@@ -4,7 +4,6 @@ import styles from '../styles/tattooShow.module.css'
 import Image from 'next/image'
 
 import { useEffect, useRef } from 'react';
-import About from './About';
 
 export default function TattooShow() {
 
