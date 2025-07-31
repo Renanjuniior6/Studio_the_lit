@@ -23,14 +23,14 @@
 .welcome h4 {
     font-family: var(--font-anton), Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 210px;
+    font-size: 13.125em;
     line-height: 1em;
     text-align: center;
 }
 
 .welcome h2 {
     font-family: var(--font-fraunces), Arial, sans-serif;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 200;
     line-height: 1em;
     font-style: normal;

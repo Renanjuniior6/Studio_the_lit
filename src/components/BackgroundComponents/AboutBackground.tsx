@@ -1,7 +1,7 @@
-import styles from '../../styles/about.module.css'
+import styles from '../../styles/aboutBackground.module.css'
 
 
-export default function AboutTitle() {
+export default function AboutBackground() {
     return (
        <section className={styles.about}>
                 <h5>SOBRE</h5>

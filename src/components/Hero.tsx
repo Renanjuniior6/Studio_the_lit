@@ -1,7 +1,9 @@
 'use client'
 
 import styles from '../styles/hero.module.css'
-import AboutTitle from './BackgroundComponents/AboutTitle'
+import AboutBackground from './BackgroundComponents/AboutBackground'
+import HeroBackground from './BackgroundComponents/HeroBackground'
+
 import { useEffect, useState } from 'react'
 
 export default function Hero() {
@@ -33,13 +35,8 @@ export default function Hero() {
         <section className={styles.section}>
             <div className={styles.welcome}>
 
-            {background === 'A' &&
-                            <>
-                                <h4>Studio the lit.</h4>  
-                                <h2>Estúdio de Tatuagem Para Todos os Tipos de Corpo e Tons de Pele.</h2>  
-                            </> 
-            }
-            {background === 'B' && <AboutTitle />}
+            {background === 'A' && <HeroBackground />}
+            {background === 'B' && <AboutBackground />}
             {/* {background === 'C' && <ComponenteC />} */}
                 
             </div>

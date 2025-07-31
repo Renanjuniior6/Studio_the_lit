@@ -39,7 +39,6 @@ export default function TattooShow() {
 
   return (
       <section className={styles.section_tattoo_show}>
-
             {imagens.map((src, index) => (
                 <Image
                     key={index}
@@ -59,7 +58,6 @@ export default function TattooShow() {
                     }}
             />
           ))}
-
       </section>
     )
 }
