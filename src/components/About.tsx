@@ -1,6 +1,8 @@
 import styles from '../styles/about.module.css'
 import Image from 'next/image'
 
+import { assessments } from '../utils/assessments'
+
 export default function About() {
     return (
        <section className={styles.about_section}>
@@ -10,26 +12,13 @@ export default function About() {
             <div className={styles.assessments}>
                 <h2>O que dizem de nós</h2>
                 <div className={styles.assessments_box}>
-                    <div className={styles.assessment_card}>
-                        <p style={{fontFamily: 'arial'}}>
-                            TATTOO ART MAGAZINE
-                        </p>
-                        <p>
-                            Use this space to share a testimonial quote about the business, its products or its services. Insert a quote from a real customer or client here to build trust and win over site visitors
-                        </p>
-                        <p style={{fontFamily: 'arial'}}>
-                            July 2035
-                        </p>
-                    </div>
-                    <div className={styles.assessment_card}>
-                        
-                    </div>
-                    <div className={styles.assessment_card}>
-                        
-                    </div>
-                    <div className={styles.assessment_card}>
-                        
-                    </div>
+                    {assessments.map((p, index) => (
+                        <div key={index} className={styles.assessment_card}>
+                            <p>{p.name}</p>
+                            <p>{p.text}</p>
+                            <p>{p.year}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
        </section> 

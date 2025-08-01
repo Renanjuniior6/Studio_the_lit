@@ -1,5 +1,6 @@
 .about_section {
     margin-top: 40%;
+    width: 100vw;
 }
 
 .box_image {
@@ -14,8 +15,6 @@
 }
 
 .assessments {
-    width: 100vw;
-    height: 95vh;
     padding: 2%;
     background-color: var(--foreground);
 }
@@ -33,18 +32,33 @@
 .assessments_box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
     padding: 2% 0;
 }
 
 .assessment_card {
-    width: 350px;
-    height: auto;
+    max-width: 100%;
+    max-height: 350px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+    padding: 40px;
     text-align: start;
     font-style: normal;
-    background-color: var(--background);
+    background-color: #F0F0F0;
+}
+
+.assessment_card p {
+    max-width: 100%;
+    font-size: 1.2em;
+}
+
+.assessment_card p:first-of-type {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.assessment_card p:last-of-type {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 65px;
+    font-size: 1em;
 }

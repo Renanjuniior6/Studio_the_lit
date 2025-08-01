@@ -1,0 +1,50 @@
+.arts_section {
+    width: 100vw;
+}
+
+.arts {
+    padding: 2%;
+    background-color: var(--foreground);
+}
+
+.arts h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+    font-size: 0.9375em;
+    font-weight: bold;
+    line-height: 1em;
+    color: var(--background);
+}
+
+.tattoos_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 2% 0;
+}
+
+.tattoo_card {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-style: normal;
+}
+
+.tattoo_card p {
+    max-width: 100%;
+    font-size: 45px;
+    color: var(--background);
+}
+
+.tattoo_card p:first-of-type {
+    font-family: 'Fraunces', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.tattoo_card p:last-of-type {
+    font-family: 'Fraunces', Arial, sans-serif;
+    margin-top: 25px;
+    font-size: 1em;
+}

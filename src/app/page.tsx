@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 
 import styles from "../styles/page.module.css";
+import Arts from "@/components/Arts";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <TattooShow />
         <About />
+        <Arts />
     </main>
   );
 }
