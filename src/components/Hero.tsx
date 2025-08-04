@@ -2,6 +2,7 @@
 
 import styles from '../styles/hero.module.css'
 import AboutBackground from './BackgroundComponents/AboutBackground'
+import AwardsBackground from './BackgroundComponents/AwardsBackground'
 import HeroBackground from './BackgroundComponents/HeroBackground'
 
 import { useEffect, useState } from 'react'
@@ -16,7 +17,7 @@ export default function Hero() {
 
       if (scrollY < 600) {
         setBackground('A');
-      } else if (scrollY >= 800) {
+      } else if (scrollY >= 800 && scrollY < 4000) {
         setBackground('B');
       } else {
         setBackground('C');
@@ -37,7 +38,7 @@ export default function Hero() {
 
             {background === 'A' && <HeroBackground />}
             {background === 'B' && <AboutBackground />}
-            {/* {background === 'C' && <ComponenteC />} */}
+            {background === 'C' && <AwardsBackground />}
                 
             </div>
         </section>

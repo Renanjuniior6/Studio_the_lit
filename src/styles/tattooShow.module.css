@@ -1,5 +1,4 @@
 .section_tattoo_show {
-    /* width: 100vw; */
     height: auto;
     margin-top: 50%;
     display: flex;
@@ -11,12 +10,6 @@
     background-color: var(--background);
     perspective: 1600px;
 }
-
-/* .tattoo_box {
-    position: relative;
-    width: 18.75rem;
-    height: 31.25rem;
-} */
 
 .image_1 {
     object-fit: cover;
