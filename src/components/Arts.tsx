@@ -13,7 +13,9 @@ export default function Arts() {
                     {artsExamples.map((p, index) => (
                         <div key={index} className={styles.tattoo_card}>
                             <p>{p.name}</p>
-                            <Image src={p.url} width={359} height={409} alt={`Tatuagem` + (index + 1)}/>
+                                <div className={styles.box_image}>
+                                    <Image src={p.url} fill alt={`Tatuagem` + (index + 1)}/>
+                                </div>
                             <p>{p.type}</p>
                         </div>
                     ))}

@@ -1,5 +1,5 @@
 .arts_section {
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .arts {
@@ -31,6 +31,12 @@
     flex-direction: column;
     text-align: start;
     font-style: normal;
+}
+
+.box_image {
+    position: relative;
+    width: 97%;
+    height: 600px;
 }
 
 .tattoo_card p {
