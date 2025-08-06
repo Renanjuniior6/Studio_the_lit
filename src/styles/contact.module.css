@@ -1,0 +1,49 @@
+.section_contact {
+    height: auto;
+    padding: 4% 0;
+    background-color: var(--background);
+}
+
+.contact_us {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact_us h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 1em;
+    margin-bottom: 12px;
+}
+
+.contact_us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 27px;
+}
+
+.contact_us button {
+    font-size: 1em;
+    background-color: var(--background);
+    border: 1px solid var(--foreground);
+    padding: 20px;
+    line-height: 1.4em;
+    color: var(--foreground);
+    cursor: pointer;
+}
+
+
+.box_image {
+    position: relative;
+    width: 556px;
+    height: 357px;
+}
+
+.text_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

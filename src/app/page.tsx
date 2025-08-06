@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Arts from "@/components/Arts";
 import Services from "@/components/Services";
 import Awards from "@/components/Awards";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Arts />
         <Services />
         <Awards />
+        <Contact />
     </main>
   );
 }
