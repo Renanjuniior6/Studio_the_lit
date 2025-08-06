@@ -14,7 +14,6 @@
     font-size: 0.9375em;
     font-weight: bold;
     line-height: 1em;
-    margin-bottom: 3%;
     color: var(--background);
 }
 
@@ -31,6 +30,7 @@
     flex-direction: column;
     text-align: start;
     font-style: normal;
+    margin-top: 50px;
 }
 
 .box_image {
