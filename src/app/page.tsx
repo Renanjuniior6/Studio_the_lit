@@ -1,10 +1,11 @@
-import TattooShow from "@/components/TattooShow";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-
 import styles from "../styles/page.module.css";
+
+import Hero from "@/components/Hero";
+import TattooShow from "@/components/TattooShow";
+import About from "@/components/About";
 import Arts from "@/components/Arts";
 import Services from "@/components/Services";
+import Awards from "@/components/Awards";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <About />
         <Arts />
         <Services />
+        <Awards />
     </main>
   );
 }

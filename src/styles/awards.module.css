@@ -1,0 +1,17 @@
+.section_awards {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    margin-top: 50%;
+    padding: 11.25rem 0;
+}
+
+.box_image {
+    position: relative;
+    width: 296px;
+    height: 445px;
+    object-fit: cover;
+}
