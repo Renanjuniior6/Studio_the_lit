@@ -1,12 +1,11 @@
 import styles from '../styles/footer.module.css'
 
-
 export default function Footer() {
 
   return (
       <section className={styles.footer_section}>
             <div className={styles.footer_box}>
-                <div>
+                <div className={styles.appointment}>
                     <a>FAÇA SEU AGENDAMENTO</a>
                 </div>
                 <ul>
@@ -35,9 +34,9 @@ export default function Footer() {
                     </li>
                 </ul>
                 <ul>
-                    <li>Accessibility Statement</li>
-                    <li>Terms and Conditions</li>
-                    <li>Privacy Policy</li>
+                    <li>ACCESSIBIlITY STATEMENT</li>
+                    <li>TERMS AND CONDITIONS</li>
+                    <li>PRIVACY POLICY</li>
                 </ul>
             </div>
             <div className={styles.copyright}>
