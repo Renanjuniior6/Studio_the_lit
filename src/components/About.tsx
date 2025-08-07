@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { assessments } from '../utils/assessments'
 
 export default function About() {
+
     return (
        <section className={styles.about_section}>
             <div className={styles.box_image}>
