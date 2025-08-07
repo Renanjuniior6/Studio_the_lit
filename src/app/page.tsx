@@ -7,6 +7,7 @@ import Arts from "@/components/Arts";
 import Services from "@/components/Services";
 import Awards from "@/components/Awards";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Services />
         <Awards />
         <Contact />
+        <Footer />
     </main>
   );
 }
